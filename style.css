@@ -1,0 +1,91 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 1920px;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 700;
+}
+
+.container{
+    margin: auto;
+    width: 1300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 40px auto;
+    padding-bottom: 100px;
+}
+
+header{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: rgb(29, 221, 12);    
+}
+
+.barracomandi, footer{
+    background-color: rgb(29, 221, 12);
+}
+
+.logo{
+    width: 200px;
+    padding-top: 100px;
+}
+
+.monopattino, .barracomandi, footer{
+    margin: 10px 150px;
+}
+
+.barracomandi, footer{
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.monopattino > span + .luogo::before{
+    content: '\01F822';
+}
+
+.monopattino{
+    display: block;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.monopattino > span{
+    color: orange;
+}
+
+.monopattino p{
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+.monopattino hr{
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+.monopattino.n1 hr{    
+    width: 250px;
+    background-color: green;
+    border: green;
+}
+
+.monopattino.n2 hr{    
+    width: 600px;
+    background-color: rgb(12, 71, 7);
+    border:  rgb(12, 71, 7);
+}
+
+.monopattino.n3 hr{    
+    width: 100px;
+    background-color: red;
+    border: red;
+}
+
+footer{
+    margin-top: 30px;
+}
+
